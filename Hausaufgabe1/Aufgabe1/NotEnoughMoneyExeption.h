@@ -1,3 +1,6 @@
+//Namen + Gruppenname
+//Aufgabenblatt 1, Aufgabe 1.1
+
 #ifndef NOTENOUGHMONEYEXEPTION_H_
 #define NOTENOUGHMONEYEXEPTION_H_
 

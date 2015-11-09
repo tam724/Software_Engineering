@@ -1,4 +1,7 @@
-PATM(double money): Rückgabetyp ist PATM
+//Namen + Gruppenname
+//Aufgabenblatt 1, Aufgabe 1.2 a
+
+PATM(double money): Rueckgabetyp ist PATM
 	Konstruktor:
 		-Keine Karte eingelegt
 		-Guthaben = Money
@@ -7,7 +10,7 @@ PATM(double money): Rückgabetyp ist PATM
 		Invariante 1
 End
 
-insertCard(): Rückgabetyp ist void
+insertCard(): Rueckgabetyp ist void
 	Invariante:
 		Invariante 1
 	Require:
@@ -21,7 +24,7 @@ insertCard(): Rückgabetyp ist void
 		Es ist eine Karte eingelegt
 End
 
-withdrawCard(): Rückgabetyp ist void
+withdrawCard(): Rueckgabetyp ist void
 	Invariante:
 		Invariante 1
 	Require:
@@ -35,14 +38,14 @@ withdrawCard(): Rückgabetyp ist void
 		Keine Karte ist eingelegt
 End
 
-depositMoney(double money): Rückgabetyp ist void
+depositMoney(double money): Rueckgabetyp ist void
 	Invariante:
 		Invariante 1
 	Require:
 		Es ist eine Karte eingelegt
-		Maximaler/Minimaler Wert wird nicht überschritten
+		Maximaler/Minimaler Wert wird nicht ueberschritten
 	
-		Guthaben wird um money erhöht
+		Guthaben wird um money erhoeht
 	
 	Invariante:
 		Invariante 1
@@ -50,12 +53,12 @@ depositMoney(double money): Rückgabetyp ist void
 		Es ist eine Karte eingelegt
 End
 
-withdrawMoney(double money): Rückgabetyp ist void
+withdrawMoney(double money): Rueckgabetyp ist void
 	Invariante:
 		Invariante 1
 	Require:
 		Es ist eine Karte eingelegt
-		Maximaler/Minimaler Wert wird nicht überschritten
+		Maximaler/Minimaler Wert wird nicht ueberschritten
 		Es ist genug Geld auf dem Konto vorhanden.
 	
 		Guthaben wird um money reduziert

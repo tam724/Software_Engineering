@@ -1,3 +1,6 @@
+//Namen + Gruppenname
+//Aufgabenblatt 1, Aufgabe 1.2 b
+
 #ifndef PRECONDITIONEXCEPTION_H_
 #define PRECONDITIONEXCEPTION_H_
 

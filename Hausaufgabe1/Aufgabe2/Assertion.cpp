@@ -1,3 +1,6 @@
+//Namen + Gruppenname
+//Aufgabenblatt 1, Aufgabe 1.2 b
+
 #include "Assertion.h"
 
 void Assertion::require(bool expr, string what) throw(PreconditionException) {

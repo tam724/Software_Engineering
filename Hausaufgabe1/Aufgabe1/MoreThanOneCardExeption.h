@@ -1,3 +1,6 @@
+//Namen + Gruppenname
+//Aufgabenblatt 1, Aufgabe 1.1
+
 #ifndef MORETHANONECARDEXEPTION_H_
 #define MORETHANONECARDEXEPTION_H_
 

@@ -1,3 +1,6 @@
+//Namen + Gruppenname
+//Aufgabenblatt 1, Aufgabe 1.1
+
 #include "PATM.h"
 #include <exception>
 

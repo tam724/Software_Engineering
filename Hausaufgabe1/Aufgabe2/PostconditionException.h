@@ -1,3 +1,6 @@
+//Namen + Gruppenname
+//Aufgabenblatt 1, Aufgabe 1.2 b
+
 #ifndef POSTCONDITIONEXCEPTION_H_
 #define POSTCONDITIONEXCEPTION_H_
 

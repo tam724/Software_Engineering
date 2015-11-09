@@ -1,3 +1,6 @@
+//Namen + Gruppenname
+//Aufgabenblatt 1, Aufgabe 1.1
+
 #ifndef NOCARDINSERTEDEXEPTION_H_
 #define NOCARDINSERTEDEXEPTION_H_
 

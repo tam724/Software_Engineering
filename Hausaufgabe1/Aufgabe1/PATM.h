@@ -1,3 +1,6 @@
+//Namen + Gruppenname
+//Aufgabenblatt 1, Aufgabe 1.1
+
 #ifndef PATM_H_
 #define PATM_H_
 

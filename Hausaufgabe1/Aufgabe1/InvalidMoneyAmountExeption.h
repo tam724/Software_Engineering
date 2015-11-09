@@ -1,3 +1,6 @@
+//Namen + Gruppenname
+//Aufgabenblatt 1, Aufgabe 1.1
+
 #ifndef INVALIDMONEYAMOUNTEXEPTION_H_
 #define INVALIDMONEYAMOUNTEXEPTION_H_
 

@@ -1,3 +1,6 @@
+//Namen + Gruppenname
+//Aufgabenblatt 1, Aufgabe 1.2 b
+
 #include "PATM_WithAssertion.h"
 
 PATM::PATM(double money){

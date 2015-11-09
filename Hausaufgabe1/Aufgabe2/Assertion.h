@@ -1,3 +1,6 @@
+//Namen + Gruppenname
+//Aufgabenblatt 1, Aufgabe 1.2 b
+
 #ifndef ASSERTION_H_
 #define ASSERTION_H_
 
