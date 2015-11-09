@@ -6,6 +6,7 @@
 
 class PATM {
 public:
+	// Maximaler/Minimaler Wert, der gleichzeitig abgehoben bzw. hinzugefügt werden darf
 	static const int MAX = 1000;
 	static const int MIN = 1;
 

@@ -3,6 +3,9 @@
 PATM::PATM(double money){
 	this->guthaben = money;
 	this->card = false;
+	
+	Assertion::ensure(this->invariant(),
+		"The invariant should hold at all time.");
 }
 
 void PATM::insertCard(){

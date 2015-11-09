@@ -1,0 +1,73 @@
+PATM(double money): Rückgabetyp ist PATM
+	Konstruktor:
+		-Keine Karte eingelegt
+		-Guthaben = Money
+	
+	Invariante:
+		Invariante 1
+End
+
+insertCard(): Rückgabetyp ist void
+	Invariante:
+		Invariante 1
+	Require:
+		Keine Karte ist eingelegt
+	
+		-Karte wird eingelegt
+	
+	Invariante:
+		Invariante 1
+	Ensure:
+		Es ist eine Karte eingelegt
+End
+
+withdrawCard(): Rückgabetyp ist void
+	Invariante:
+		Invariante 1
+	Require:
+		Es ist eine Karte eingelegt
+	
+		-Karte wird ausgeworfen
+	
+	Invariante:
+		Invariante 1
+	Ensure:
+		Keine Karte ist eingelegt
+End
+
+depositMoney(double money): Rückgabetyp ist void
+	Invariante:
+		Invariante 1
+	Require:
+		Es ist eine Karte eingelegt
+		Maximaler/Minimaler Wert wird nicht überschritten
+	
+		Guthaben wird um money erhöht
+	
+	Invariante:
+		Invariante 1
+	Ensure:
+		Es ist eine Karte eingelegt
+End
+
+withdrawMoney(double money): Rückgabetyp ist void
+	Invariante:
+		Invariante 1
+	Require:
+		Es ist eine Karte eingelegt
+		Maximaler/Minimaler Wert wird nicht überschritten
+		Es ist genug Geld auf dem Konto vorhanden.
+	
+		Guthaben wird um money reduziert
+	
+	Invariante:
+		Invariante 1
+	Ensure:
+		Es ist eine Karte eingelegt
+		
+	this->guthaben = this->guthaben - money;
+End
+
+Invariante 1 ist:
+	Das Guthaben ist nicht negativ
+End
