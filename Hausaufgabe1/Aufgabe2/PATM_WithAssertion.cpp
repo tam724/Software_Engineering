@@ -37,7 +37,7 @@ void PATM::withdrawCard(){
 	Assertion::ensure(this->invariant(),
 		"The invariant should hold at all time.");
 	Assertion::ensure(!this->cardInserted(),
-		"There should be a Card inserted.");
+		"There should be no Card inserted.");
 }
 
 void PATM::depositMoney(double money){
