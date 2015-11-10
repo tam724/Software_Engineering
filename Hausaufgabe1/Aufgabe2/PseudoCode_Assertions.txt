@@ -35,7 +35,7 @@ withdrawCard(): Rueckgabetyp ist void
 	Invariante:
 		Invariante 1
 	Ensure:
-		Es ist eine Karte eingelegt
+		Es ist keine Karte mehr eingelegt.
 End
 
 depositMoney(double money): Rueckgabetyp ist void
